@@ -23,7 +23,6 @@ requirements:
     - python >=3.5
     - pip    >=18.0
     - setuptools
-    - packaging
     - anyqt
     - pyqt
     - docutils
