@@ -1,6 +1,6 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.1.11" %}
-{% set sha256 = "ca79629e09fcdfb0d234b2abade3b4c3bb942e56138c55407b923ec22e22a081" %}
+{% set version = "0.1.12" %}
+{% set sha256 = "ad004d574d6e82cd71b46c12d9282668a961f8e389f3dfbba7eb5d690bcd2a96" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -42,7 +42,7 @@ about:
   license: GPL-3.0
   license_family: GPL
   license_file: LICENSE.txt
-  summary: 'Core component of Orange Canvas'
+  summary: Core component of Orange Canvas
 
   description: |
     Orange Canvas Core is is a framework for building graphical user
