@@ -31,6 +31,7 @@ requirements:
     - cachecontrol
     # via cachecontrol[filecache]
     - lockfile >=0.9
+    - dictdiffer
 
 test:
   imports:
