@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -28,7 +28,7 @@ requirements:
     - docutils
     - commonmark
     - requests
-    - cachecontrol
+    - cachecontrol >=0.12.6
     # via cachecontrol[filecache]
     - lockfile >=0.9
     - dictdiffer
