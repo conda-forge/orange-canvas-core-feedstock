@@ -1,6 +1,6 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.1.12" %}
-{% set sha256 = "ad004d574d6e82cd71b46c12d9282668a961f8e389f3dfbba7eb5d690bcd2a96" %}
+{% set version = "0.1.13" %}
+{% set sha256 = "3775e91256b18749661221db16a8625c326c0eaf257508c700f83a8abaa22373" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
