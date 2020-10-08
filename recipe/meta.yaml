@@ -1,6 +1,6 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.1.15" %}
-{% set sha256 = "5ec36221bb5d925b352b6b9d9c58627d0ef9ef75249b8ab0080d6f64b5828c61" %}
+{% set version = "0.1.16" %}
+{% set sha256 = "834ee640293fc46766b0098881c98d3c17e2442f9b5cebfb014c14a4ee41fc0a" %}
 
 package:
   name: {{ name|lower }}
@@ -26,7 +26,7 @@ requirements:
     - anyqt
     - pyqt
     - docutils
-    - commonmark
+    - commonmark >=0.8.1
     - requests
     - cachecontrol >=0.12.6
     # via cachecontrol[filecache]
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/biolab/orange-canvas-core
-  license: GPL-3.0
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE.txt
   summary: Core component of Orange Canvas
