@@ -5,9 +5,13 @@ Home: https://github.com/biolab/orange-canvas-core
 
 Package license: GPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange-canvas-core-feedstock/blob/master/LICENSE.txt)
 
 Summary: Core component of Orange Canvas
+
+Development: https://github.com/biolab/orange-canvas-core
+
+Documentation: https://orange-canvas-core.readthedocs.io/
 
 Orange Canvas Core is is a framework for building graphical user
 interfaces for editing workflows. It is a component used to build
