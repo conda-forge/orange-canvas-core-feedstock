@@ -26,7 +26,7 @@ requirements:
     - anyqt
     - pyqt
     - docutils
-    - commonmark
+    - commonmark >=0.8.1
     - requests
     - cachecontrol >=0.12.6
     # via cachecontrol[filecache]
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/biolab/orange-canvas-core
-  license: GPL-3.0
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE.txt
   summary: Core component of Orange Canvas
