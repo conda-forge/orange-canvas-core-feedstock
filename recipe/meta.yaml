@@ -1,6 +1,6 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.1.18" %}
-{% set sha256 = "bbb82d4bbf4080f1348c439b17847ea53bc557c5d251b9bbd2200853b0496f4b" %}
+{% set version = "0.1.19" %}
+{% set sha256 = "54f127f9823e11b715305f28dacd6934408fcd0e3b19cc3ff26254a7abd88a0f" %}
 
 package:
   name: {{ name|lower }}
@@ -32,6 +32,7 @@ requirements:
     # via cachecontrol[filecache]
     - lockfile >=0.9
     - dictdiffer
+    - qasync
 
 test:
   imports:
