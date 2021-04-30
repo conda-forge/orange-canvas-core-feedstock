@@ -33,6 +33,7 @@ requirements:
     - lockfile >=0.9
     - dictdiffer
     - qasync
+    - importlib_metadata
 
 test:
   imports:
