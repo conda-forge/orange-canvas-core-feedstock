@@ -1,6 +1,6 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.1.20" %}
-{% set sha256 = "94aa0209445445afcc82f2e31bcef3d4dbfeeb1e11cc2c77e5106456b9bffa49" %}
+{% set version = "0.1.21" %}
+{% set sha256 = "bdc71d5b3d3f84f1e69fa7bb1332577462d3c766c9b794074c3af35e7f730062" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,7 @@ requirements:
     - python >=3.5
     - pip    >=18.0
     - setuptools
-    - anyqt
+    - anyqt >=0.0.13
     - pyqt
     - docutils
     - commonmark >=0.8.1
