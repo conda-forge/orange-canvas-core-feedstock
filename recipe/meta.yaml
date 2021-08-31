@@ -1,6 +1,6 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.1.21" %}
-{% set sha256 = "bdc71d5b3d3f84f1e69fa7bb1332577462d3c766c9b794074c3af35e7f730062" %}
+{% set version = "0.1.22" %}
+{% set sha256 = "5ddc15b0b70ec0b4c9659ad4c83d73016f95a774c5e474fa49b33799b4e08cf4" %}
 
 package:
   name: {{ name|lower }}
@@ -17,10 +17,10 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.6
     - pip
   run:
-    - python >=3.5
+    - python >=3.6
     - pip    >=18.0
     - setuptools
     - anyqt >=0.0.13
