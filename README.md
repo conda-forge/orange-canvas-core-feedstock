@@ -5,7 +5,7 @@ Home: https://github.com/biolab/orange-canvas-core
 
 Package license: GPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange-canvas-core-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange-canvas-core-feedstock/blob/main/LICENSE.txt)
 
 Summary: Core component of Orange Canvas
 
@@ -25,8 +25,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7749&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/orange-canvas-core-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7749&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/orange-canvas-core-feedstock?branchName=main">
       </a>
     </td>
   </tr>
