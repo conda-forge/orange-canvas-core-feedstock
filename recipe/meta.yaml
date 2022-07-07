@@ -1,6 +1,6 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.1.26" %}
-{% set sha256 = "a036cf29842ad326123642ee6d0b8d87e38f85d4b104cc6b4c46d8dd96c99831" %}
+{% set version = "0.1.27" %}
+{% set sha256 = "c8ffece2e1c5922bec11a02c111296c0690ba5a48c9c4c2c827ecaa9e603995f" %}
 
 package:
   name: {{ name|lower }}
