@@ -23,7 +23,7 @@ requirements:
     - python >=3.6
     - pip    >=18.0
     - setuptools
-    - anyqt >=0.1.0
+    - anyqt >=0.2.0
     - pyqt
     - docutils
     - commonmark >=0.8.1
