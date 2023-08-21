@@ -21,19 +21,19 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - pip    >=18.0
     - setuptools
     - anyqt >=0.2.0
-    - pyqt
     - docutils
     - commonmark >=0.8.1
     - requests
-    - cachecontrol >=0.12.6
-    # via cachecontrol[filecache]
-    - lockfile >=0.9
+    - requests-cache
+    - pip >=18.0
     - dictdiffer
     - qasync
+    - pyqt
     - importlib_metadata
+    - packaging
+    - numpy
 
 test:
   imports:
