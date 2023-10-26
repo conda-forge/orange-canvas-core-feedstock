@@ -29,7 +29,7 @@ requirements:
     - requests-cache
     - pip >=18.0
     - dictdiffer
-    - qasync
+    - qasync >=0.10.0
     - pyqt
     - importlib_metadata
     - packaging
