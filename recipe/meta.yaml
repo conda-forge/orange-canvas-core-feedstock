@@ -31,7 +31,6 @@ requirements:
     - dictdiffer
     - qasync >=0.10.0
     - pyqt
-    - importlib_metadata
     - packaging
     - numpy
 
