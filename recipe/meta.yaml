@@ -21,7 +21,6 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - setuptools
     - anyqt >=0.2.0
     - docutils
     - commonmark >=0.8.1
@@ -31,6 +30,8 @@ requirements:
     - dictdiffer
     - qasync >=0.10.0
     - pyqt
+    - importlib_metadata
+    - importlib_resources
     - packaging
     - numpy
 
