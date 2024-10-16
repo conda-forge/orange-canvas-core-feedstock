@@ -1,13 +1,13 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "f6ec30c7efcb5f60ebefaf2e05287e6c35b89b2a024c34b4934dfc83558d8c24" %}
+{% set version = "0.2.3" %}
+{% set sha256 = "e2e1d623c8e6773aca001446dbb51f7d709ac3d6d293514e28491b7af4a75b78" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
