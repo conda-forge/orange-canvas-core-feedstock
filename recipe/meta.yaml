@@ -1,13 +1,13 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "f6ec30c7efcb5f60ebefaf2e05287e6c35b89b2a024c34b4934dfc83558d8c24" %}
+{% set version = "0.2.4" %}
+{% set sha256 = "837ea1eb11b644685dd75fb7acba962022ef7cd7ebc5998c3921565c9612c8ec" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -17,11 +17,12 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - pip
     - setuptools
+    - trubar >=0.3.3
   run:
-    - python >=3.8
+    - python >=3.9
     - anyqt >=0.2.0
     - docutils
     - commonmark >=0.8.1
@@ -31,7 +32,7 @@ requirements:
     - dictdiffer
     - qasync >=0.10.0
     - pyqt
-    - importlib_metadata >=4.6
+    - importlib-metadata >=4.6
     - importlib_resources
     - packaging
     - numpy
