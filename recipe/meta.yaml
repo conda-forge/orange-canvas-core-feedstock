@@ -1,13 +1,14 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.2.4" %}
-{% set sha256 = "837ea1eb11b644685dd75fb7acba962022ef7cd7ebc5998c3921565c9612c8ec" %}
+{% set version = "0.2.5" %}
+{% set sha256 = "16686b08922a08c6b5581c62d63b537899cbdda232aaf360c8df11457c61e62e" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -17,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools
     - trubar >=0.3.3
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - anyqt >=0.2.0
     - docutils
     - commonmark >=0.8.1
@@ -38,6 +39,8 @@ requirements:
     - numpy
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - orangecanvas.main
     - orangecanvas.application.canvasmain
