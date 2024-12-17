@@ -39,6 +39,8 @@ requirements:
     - numpy
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - orangecanvas.main
     - orangecanvas.application.canvasmain
