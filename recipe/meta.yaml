@@ -1,7 +1,7 @@
 {% set name = "orange-canvas-core" %}
-{% set version = "0.2.5" %}
-{% set sha256 = "16686b08922a08c6b5581c62d63b537899cbdda232aaf360c8df11457c61e62e" %}
-{% set python_min = "3.9" %}
+{% set version = "0.2.6" %}
+{% set sha256 = "00b7a181a17b4d1f494337e48ba4975d7e031406fda87ef4ab7c2768c63517c0" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -33,10 +33,9 @@ requirements:
     - dictdiffer
     - qasync >=0.10.0
     - pyqt
-    - importlib-metadata >=4.6
-    - importlib_resources
     - packaging
     - numpy
+    - truststore
 
 test:
   requires:
